@@ -75,10 +75,18 @@ main {
     width: 900px;
     /* height: 900px; */
 }
+.planet__box {
+    width: 620px;
+    height: 620px;
+    border-radius: 50%;
+    box-shadow: #ffffff 0 0 12px 3px;
+}
 .planet__img {
-    width: 100%;
-    /* height: 100%; */
-    
+
+    display: block;
+    width: 620px;
+    height: 620px;
+    /* box-shadow: 0 0 12px 3px white; */
 }
 .info-box {
     width: 700px;
