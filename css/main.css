@@ -17,18 +17,18 @@ body {
     margin: 0 auto;
 }
 header {
-    display: flex;
-    
     max-width: 1600px;
     height: 30px;
     background-color: #30354F ;
-    justify-content: space-between;
-    align-items: center;
 }
 .header__logo {
     margin-left: 8%;
     margin-top: 4px;
-    margin-right: 17%;
+    margin-right: 2%;
+    float: left;
+}
+.header-menu {
+    float: left;
 }
 .header-menu__link {
     font-family: 'Montserrat', sans-serif;
@@ -36,23 +36,29 @@ header {
     color: rgb(216, 216, 216);
     font-size: 18px;
     letter-spacing: 10.5%;
-    margin-right: 14%;
+    margin-right: 2%;
 }
 .header-menu__link:hover {
     text-decoration:overline;
     color: white;
 }
+.header__logIn {
+    float: none;
+}
 .header__lang {
     margin-right: 38px;
     margin-left: 57px;
+
 }
 .header-lang__link {
     text-decoration: none;
     color: white;
     font-size:18px ;
+    float:none;
 }
 main {
     display: flex;
+
 }
 .planet {
     width: 900px;
